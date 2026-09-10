@@ -1,14 +1,14 @@
 name: Clang-format check
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - "engine/src/**"
-      - "engine/include/**"
-      - "bindings/native/src/**"
-      - "bindings/node/src/cpp/**"
-      - ".github/workflows/clang-format.yml"
+  # push:
+  #   branches: [ "main" ]
+  #   paths:
+  #     - "engine/src/**"
+  #     - "engine/include/**"
+  #     - "bindings/native/src/**"
+  #     - "bindings/node/src/cpp/**"
+  #     - ".github/workflows/clang-format.yml"
   pull_request:
     branches: [ "main" ]
     paths:
